@@ -1,0 +1,120 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/4674399.jpg"); /*bgImagePath*/
+    background-size: cover; 
+    background-attachment: fixed;
+    margin: auto;
+    font-family: OCR A; /*body font style*/
+    color: rgb(255, 255, 255);
+}
+
+.center{
+    margin: auto;    
+}
+.pageHeading{
+    text-decoration: underline solid;
+    font-size: 40px;
+    width: fit-content;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.481);
+}
+.Heading{
+    font-size: 25px;
+    width: fit-content;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.481);
+}
+
+.ytV{
+    height:157.5px ;
+    width: 280px;
+    border: 2px solid rgba(255, 0, 0, 0);
+    opacity: 1;
+}
+
+.ytV-div{
+    height: 158.5px;
+    width: 283px;
+    margin: 10px;
+}
+.block {
+position: relative;
+background: linear-gradient(0deg, #000, #272727);
+}
+  
+  .block:before, .block:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .block:after {
+    filter: blur(10px);
+  }
+
+
+  td,th{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #ffffff00;
+  }
+  .movies{
+    width:fit-content;
+    margin: 10px;
+  }
+
+  .td_red:hover{
+    background-color: rgb(255, 0, 247);
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .td_2:hover{
+    background-color: #0000ff;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .td_3:hover{
+    background-color: yellow;
+    color:#000;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .td_4:hover{
+    background-color: cyan;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .td_5:hover{
+    background-color: rgb(72, 255, 0);
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .td{
+    background-color: ;
+  }
+  .td{
+    background-color: ;
+  }
+  .td{
+    background-color: ;
+  }

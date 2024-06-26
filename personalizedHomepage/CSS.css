@@ -1,0 +1,268 @@
+body{
+    background-image: None;
+    background-size: cover; 
+    background-color: #111111;
+    background-attachment: fixed;
+    margin: auto;
+    font-family: Verdana;
+    color: #fff;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:brown;
+    font-weight: 600;
+    
+
+    
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+    
+
+}
+.textShadow {
+    text-shadow: 10px 10px #DDE1E6;
+}
+
+.Iconize25px{
+    height: 25px;
+    width: 25px;
+}
+.Iconize20px{
+    height: 20px;
+    width: 20px;
+}
+.Iconize40px{
+    height: 40px;
+    width: 40px;
+}
+.Iconize6p {
+    height: 25px;
+    width: 25px;
+}
+
+.whiteBorders{
+    border: 1px solid white;  
+    width: fit-content
+}
+.whiteBorders th, .whiteBorders td {
+    border: 1px solid white;
+    
+}
+
+.invertImgColors {
+    filter: invert(80%);
+}
+
+.searchForm{
+    display: inline-block;
+    caret-color: #ff0000;
+    font-size: 16px;
+    font-family: Verdana;
+    background-color: black;
+}
+
+.search{
+    border: 2px solid rgb(255, 0, 0);
+    height: 25px;
+    width: 150px; 
+    
+}
+.form-box input[type="text"] {
+    padding: 5px;
+    font-size: 15px;
+    background-color: transparent; 
+    color: yellow;
+}
+
+.form-box img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%) translateX(0%);
+}
+.pageTitle-A{
+    color: rgb(255, 0, 0);
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 0px white;
+}
+
+.form-box {
+    position: relative;
+    
+}
+
+.pageTitle-A:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+    animation: fastTitleAnimation 3s infinite linear;
+    animation-direction: alternate reverse;
+    }
+@keyframes fastTitleAnimation {
+    0%{text-shadow: 0px 0px 0px rgb(255, 174, 0);}
+    20%{text-shadow: 0px 0px 0px cyan;}
+    40%{text-shadow: 0px 0px 0px rgb(153, 255, 0);}
+    60%{text-shadow: 0px 0px 0px rgb(255, 68, 68);}
+    80%{text-shadow: 0px 0px 0px yellow;}
+    100%{text-shadow: 0px 0px 0px rgb(255, 0, 255);}}
+
+    
+
+
+.lowerImageBrightness {
+    filter: brightness(90%);
+}
+
+.hover:hover{
+    transform: scale(1.5) translateY(-5px);
+    filter: brightness(95%);
+    
+}
+
+
+
+
+/* CSS for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 160px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    min-width: 160px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 190px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-option {
+    cursor: pointer;
+    margin-bottom: 4px;
+    
+}
+
+.dropdown-option:hover {
+    cursor: pointer;
+    margin-bottom: 4px;
+    color: red;
+    background-color: yellow;
+    text-decoration: ;
+    font-weight: bolder;
+}
+
+/* CSS for the copy to clipboard button */
+.copy-button {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #0062cc;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.copy-button:hover {
+    background-color: #0062cc;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+{
+
+}
+/* Clock */
+
+.clock-container {
+    border: none;
+    text-align: center;
+  }
+  
+  .time {
+    font-size: 35px;
+    color: #0062cc;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+    text-shadow: 3px 1.5px #ff0000;
+    
+  }
+  
+  
+  .date {
+    font-size: 25px;
+    color: #0062cc;
+    margin-bottom: 0.3rem;
+    font-weight: bolder;
+    text-shadow: 1.5px 1.5px #ff0000 ;
+  }
+  
+  .day {
+    font-size: 20px;
+    color: #0062cc;
+    font-weight: bolder;
+    text-shadow: 1.5px 1.5px #ff0000 ;
+  }
+  
+  
+  
+  /* Clock End */
+
+/* navigation bar */
+.navbar{  
+    background-color: #008080;
+    width: 100%;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.485);
+}
+/* navigation bar */
+
+/* gifImage */
+
+.gifImage {
+    transform: scale(0.3);
+}
+.gifImage2 {
+    transform: scale(0.6);
+}
+.gifImage3 {
+    transform: scale(0.3);
+}
+.gifImage4{
+    transform: scale(1.5);
+}
+
+
+.gifImage:hover{
+    transform: scale(0.5);
+}
+.gifImage2:hover{
+    transform: scale(1);
+}
+.gifImage3:hover{
+    transform: scale(0.8);
+}
+.gifImage4:hover{
+    transform: scale(2);
+}
+

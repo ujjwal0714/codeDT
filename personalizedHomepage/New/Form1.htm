@@ -1,0 +1,46 @@
+Form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Payment Form</h2></legend>
+        <p>Required Fields are Marked by *</p>
+        <fieldset>
+            <legend><h3>User Information</h3></legend>
+        <p>Name: * <input type="text" name="Name" required> </p>
+        <p> 
+            <input type="radio" name="Gender" id=""> Male<br>
+            <input type="radio" name="Gender" id=""> Female
+        </p>
+    <p>Address: <textarea name="address" id="" cols="30" rows="10"></textarea></p>
+    <p>Email: <input type="email"></p>
+    <p>Pincode: <input type="number"></p>
+    </fieldset>
+    <fieldset>
+        <legend><h3> Information</h3></legend>
+        <p>Card Type: 
+            <select name="cardType">
+                <option value="">-- Select A Card Type --</option>
+                <option value="SBI">SBI Debit Card</option>
+                <option value="Axis Bank Card">Axis Bank Pay</option>
+                <option value="PayTM">PayTm</option>
+                <option value="Google">Google Scan</option>
+            </select>
+        </p>
+        <p>Card Number: <input type="number" name="card_number" id=""></p>
+        <p>Expiration Date: <input type="date" name="" id=""></p>
+        <p>CVV: <input type="password" name="" id=""></p>
+        <input type="submit" name="Pay" id="Pay" value="pay now">
+    </fieldset>
+    </form>
+    </fieldset> 
+</body>
+</html>
+
